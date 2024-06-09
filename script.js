@@ -17,12 +17,24 @@
 
 //eligibilty to vote
 
-let vimal= 20
-let x = vimal>=18?'Eligible' : 'Not Eligible'
-console.log(x);
-let raj = 17
-let y = raj>=18?'Eligible' : 'Not Eligible'
-console.log(y);
-let jamal=30
-let z = jamal>=18?'Eligible' : 'Not Eligible'
-console.log(z);
+// let vimal= 20
+// let x = vimal>=18?'Eligible' : 'Not Eligible'
+// console.log('Vimal', x);
+// let raj = 17
+// let y = raj>=18?'Eligible' : 'Not Eligible'
+// console.log('Raj', y);
+// let jamal=30
+// let z = jamal>=18?'Eligible' : 'Not Eligible'
+// console.log('Jamal', z);
+
+//Pass or fail
+
+var Ajay = 78
+var x = Ajay>=60 ? 'passed' : 'failed'
+console.log('Ajay' , x);
+var Samuel = 55
+var x = Samuel>=60 ? 'passed' : 'failed'
+console.log('Samuel' ,x);
+var Derik = 65
+var x = Derik>=60 ? 'passed' : 'failed'
+console.log('Ajay' , x);
