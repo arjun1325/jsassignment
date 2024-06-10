@@ -29,12 +29,38 @@
 
 //Pass or fail
 
-var Ajay = 78
-var x = Ajay>=60 ? 'passed' : 'failed'
-console.log('Ajay' , x);
-var Samuel = 55
-var x = Samuel>=60 ? 'passed' : 'failed'
-console.log('Samuel' ,x);
-var Derik = 65
-var x = Derik>=60 ? 'passed' : 'failed'
-console.log('Ajay' , x);
+// var Ajay = 78
+// var x = Ajay>=60 ? 'passed' : 'failed'
+// console.log('Ajay' , x);
+// var Samuel = 55
+// var x = Samuel>=60 ? 'passed' : 'failed'
+// console.log('Samuel' ,x);
+// var Derik = 65
+// var x = Derik>=60 ? 'passed' : 'failed'
+// console.log('Ajay' , x);
+ 
+// check whether + or -
+
+// let x =0
+// if (x>0)
+// console.log(x,'is possitive')
+// if(x=0)
+//     console.log('zero')
+// else
+// console.log(x, 'negetive');
+
+//age determination
+
+let arjun= 24
+if (arjun <12)
+     {console.log('child'); 
+}
+else if (arjun<19) {
+    console.log('teenager');
+}
+else if (arjun<59) {
+    console.log('adult');
+}
+else if (arjun>60) {
+    console.log('senior citizen');
+}
