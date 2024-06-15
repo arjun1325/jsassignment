@@ -66,9 +66,20 @@
 // }
 
 //Square using loop
-let sq = [1,3,9,12,15,18,21]
+// let sq = [1,3,9,12,15,18,21]
 
-for(x=0;x<=6;x++){
-    const result= sq [x] **2
-    console.log(sq[x] ,'^',2, '=' ,result);   
-} 
+// for(x=0;x<=6;x++){
+//     const result= sq [x] **2
+//     console.log(sq[x] ,'^',2, '=' ,result);   
+// } 
+//find sum of odd numbers using loop
+
+
+let arr= [1,3,5,7,9,11,13,15,17,19]
+let sum=0
+{for(i=0; i<=9;i++)
+sum=sum+arr[i]
+}
+
+console.log(sum);
+
