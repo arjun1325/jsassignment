@@ -51,16 +51,24 @@
 
 //age determination
 
-let arjun= 24
-if (arjun <12)
-     {console.log('child'); 
-}
-else if (arjun<19) {
-    console.log('teenager');
-}
-else if (arjun<59) {
-    console.log('adult');
-}
-else if (arjun>60) {
-    console.log('senior citizen');
-}
+// let arjun= 24
+// if (arjun <12)
+//      {console.log('child'); 
+// }
+// else if (arjun<19) {
+//     console.log('teenager');
+// }
+// else if (arjun<59) {
+//     console.log('adult');
+// }
+// else if (arjun>60) {
+//     console.log('senior citizen');
+// }
+
+//Square using loop
+let sq = [1,3,9,12,15,18,21]
+
+for(x=0;x<=6;x++){
+    const result= sq [x] **2
+    console.log(sq[x] ,'^',2, '=' ,result);   
+} 
