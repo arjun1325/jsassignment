@@ -75,11 +75,10 @@
 //find sum of odd numbers using loop
 
 
-let arr= [1,3,5,7,9,11,13,15,17,19]
+let arr= [1,2,3,4,5,6,7,8,9,10,11,]
 let sum=0
-{for(i=0; i<=9;i++)
-sum=sum+arr[i]
-}
+for(i=0; i<=10;i++)
+if(arr[i]%2!==0)
 
-console.log(sum);
+console.log(arr[i]);
 
